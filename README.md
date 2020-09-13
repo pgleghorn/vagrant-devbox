@@ -9,6 +9,7 @@ Simple vagrant Centos machine, with some useful stuff provisioned via ansible:
  - jenkins
  - nodejs
  - apache
+ - nexus
 
 ## Usage
 
@@ -25,9 +26,12 @@ To ssh in as vagrant user:
 Available at http://localhost:8080. Username "admin" password "pass1234".
 Jenkins installs with blueocean & workflow-aggregator (pipeline) plugins, which bring in a load of dependent plugins.
 
+## Nexus
+
+Available at http://localhost:8081. Username "admin" password "pass124".
+
 ## TODO
 
- - nexus
  - certbot
  - rancher
  - portainer

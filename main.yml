@@ -13,6 +13,9 @@
       - name: blueocean
       - name: workflow-aggregator
     jenkins_plugins_install_dependencies: true
+    nexus_anonymous_access: true
+    nexus_admin_password: pass1234
+    nexus_default_port: 8081
 
   roles:
     - name: geerlingguy.docker
@@ -20,6 +23,7 @@
     - name: geerlingguy.jenkins
     - name: geerlingguy.nodejs
     - name: geerlingguy.apache
+    - name: ansible-thoteam.nexus3-oss
 
   tasks:
     - name: Install useful packages

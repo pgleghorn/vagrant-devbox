@@ -5,3 +5,4 @@ roles:
   - name: geerlingguy.jenkins
   - name: geerlingguy.nodejs
   - name: geerlingguy.apache
+  - name: ansible-thoteam.nexus3-oss
