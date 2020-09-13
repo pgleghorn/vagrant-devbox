@@ -16,6 +16,11 @@
     nexus_anonymous_access: true
     nexus_admin_password: pass1234
     nexus_default_port: 8081
+    gitea_http_listen: 0.0.0.0
+    gitea_http_port: 3000
+    gitea_ssh_listen: 0.0.0.0
+    gitea_ssh_port: 8222
+
 
   roles:
     - name: geerlingguy.docker
@@ -24,6 +29,7 @@
     - name: geerlingguy.nodejs
     - name: geerlingguy.apache
     - name: ansible-thoteam.nexus3-oss
+    - name: thomas_maurice.ansible_role_gitea
 
   tasks:
     - name: Install useful packages
