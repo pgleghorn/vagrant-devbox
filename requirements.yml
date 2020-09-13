@@ -1,0 +1,7 @@
+---
+roles:
+  - name: geerlingguy.java
+  - name: geerlingguy.docker
+  - name: geerlingguy.jenkins
+  - name: geerlingguy.nodejs
+  - name: geerlingguy.apache
